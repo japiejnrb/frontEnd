@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Front end</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <script type="text/javascript" src=https://www.gstatic.com/charts/loader.js></script>
+   <script type="text/javascript">
+      google.charts.load('current', {'packages':['gauge']});
+      google.charts.setOnLoadCallback(drawChart);
+ 
+      function drawChart() {
+ 
+        var data = google.visualization.arrayToDataTable([
+          ['Label', 'Value'],
+          ['Memory', 88],
+          ['CPU', 55],
+          ['Network', 68]
+        ]);
+ 
+        var options = {
+          width: 100, height: 500,
+          // redFrom: 90, redTo: 100,
+          // greenFrom:75, greenTo: 90,
+          minorTicks: 5
+        };
+ 
+        var chart = new google.visualization.Gauge(document.getElementById('chart_div'));
+ 
+        chart.draw(data, options);
+ 
+        setInterval(function() {
+          data.setValue(0, 1, 40 + Math.round(60 * Math.random()));
+          chart.draw(data, options);
+        }, 13000);
+        setInterval(function() {
+          data.setValue(1, 1, 40 + Math.round(60 * Math.random()));
+          chart.draw(data, options);
+        }, 5000);
+        setInterval(function() {
+          data.setValue(2, 1, 60 + Math.round(20 * Math.random()));
+          chart.draw(data, options);
+        }, 26000);
+      } -->
+      
+    </script>
+  </head>
+  <body>
+    <!-- sidebar -->
+    <div class="sidebar">
+    <a class="about" href="about.html">About</a>
+    <p>banner</p>
+     <!-- <div id="chart_div" style="width: 147px; height: 500px"></div> -->
+    </div>
+   </div>
+    </div>
+    <!-- ratecards -->
+    <a href="https://www.google.com/"
+      ><div class="full">
+        <img src="./businessPeople.png" alt="ratecards img" />
+        <div class="name"><h1>Ratecards</h1></div>
+        <div class="overlay">
+          <div class="info">
+            <p>
+              Here you can find the ratecards belonging to your customer. If a
+              ratecard does not exist, it means it is using the global rates.
+              Please keep in mind the multipliers when it comes to disk tiers.
+              For monthly rates calculation 732 hours were used.
+            </p>
+          </div>
+        </div>
+      </div></a
+    >
+    <!-- Active Servers -->
+    <a href="https://www.google.com/"
+      ><div class="full">
+        <img src="./runningPeople.jpg" alt="active servers img" />
+        <div class="name"><h1>Active Servers</h1></div>
+        <div class="overlay">
+          <div class="info">
+            <p>
+              Filter by your customer, and see what servers they have active on
+              the platform. This also returns the storage tier used for each
+              server. Simply filter by customer name, or part-thereof, and see
+              the details.
+            </p>
+          </div>
+        </div>
+      </div></a
+    >
+    
+    <!-- additions  -->
+    <a href="https://www.google.com/"
+      ><div class="full">
+        <img src="./happyPeople.jpg" alt="software licenses img" />
+        <div class="name"><h1>Additions</h1></div>
+        <div class="overlay">
+          <div class="info">
+            <p>
+              In this section you can see how many servers were added during a selected period.
+            </p>
+          </div>
+        </div>
+      </div></a
+    >
+    
+    <!-- deletions -->
+    <a href="https://www.google.com/"
+      ><div class="full">
+        <img src="./sadPeople.jpg" alt="deletions img" />
+        <div class="name"><h1>Deletions</h1></div>
+        <div class="overlay">
+          <div class="info">
+            <p>
+              In this section you can see how many servers were deleted during a selected period.
+            </p>
+          </div>
+        </div>
+      </div></a
+    >
+    
+  </body>
+</html>

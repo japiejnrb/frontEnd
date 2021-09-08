@@ -1,0 +1,86 @@
+body {
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+}
+img {
+  opacity: 0.5;
+  height: 48vh;
+  width: 44vw;
+}
+
+/* img:hover {
+  opacity: 1;
+} */
+.full {
+  position: relative;
+  height: 48vh;
+  width: 44vw;
+  float: left;
+  border-style: solid;
+  border-color: black;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: white;
+}
+.full:hover .overlay {
+  opacity: 1;
+}
+.info {
+  color: black;
+  font-size: 22px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.name {
+  position: absolute;
+  top: 37%;
+  width: 100%;
+  text-align: center;
+  font-size: 17px;
+  color: white;
+  font-family: "Open Sans", "Roboto", sans-serif;
+}
+.name:hover {
+  opacity: 0;
+}
+.sidebar {
+  color: black;
+  float: right;
+  background-color: black;
+  height: 766px;
+  width: 147px;
+  text-align: left;
+  word-wrap: break-word;
+}
+.about:link,
+.about:visited {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.about:hover,
+.about:active {
+  background-color: white;
+  color: black;
+}
+.about {
+  float: right;
+}
