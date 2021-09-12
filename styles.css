@@ -63,7 +63,11 @@ img {
   height: 766px;
   width: 147px;
   text-align: left;
-  word-wrap: break-word;
+}
+.banner {
+  height: 766px;
+  width: 147px;
+  opacity: 1;
 }
 .about:link,
 .about:visited {
@@ -82,5 +86,5 @@ img {
   color: black;
 }
 .about {
-  float: right;
+  position: absolute;
 }
