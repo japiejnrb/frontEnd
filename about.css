@@ -24,10 +24,17 @@ body {
   border: gold solid 1px;
 }
 .back {
+  text-align: center;
   text-decoration: none;
   color: white;
   font-size: 16px;
 }
 .back:hover {
   text-decoration: underline;
+}
+img {
+  height: 50vh;
+  width: 50vw;
+  float: right;
+  border: solid 2px white;
 }
